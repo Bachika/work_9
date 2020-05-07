@@ -1,0 +1,41 @@
+header, .body,  .topnav, footer{
+    width: 980px;
+    border: solid 1px blue;
+    margin: 5px auto;
+}
+
+.topnav{
+    height: 50px;
+}
+
+header{
+    height: 100px;
+}
+
+.body{  
+    height: 700px;
+    display: flex;
+}
+
+footer{
+    height: 70px;
+}
+
+nav{
+    width: 200px;
+    height: 700px;
+}
+
+article{
+    width: 780px;
+    min-height: 700px;
+    border: 1px solid blue;
+}
+
+article p {
+    margin: 20px;
+}
+
+tr td{
+    border: 1px solid black;
+}
